@@ -9,7 +9,7 @@ let sum = 0;
 
 let targetNum = 20
 while(targetNum > 0){
-   if (targetNum % 2 == 0) sum = sum + targetNum;
+   if (targetNum % 2 == 1) sum = sum + targetNum;
 
     targetNum--
 }
