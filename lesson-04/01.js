@@ -12,12 +12,16 @@
 Пример использования:
   // должен вернуть `true`.
 */
-let res = false; 
+let res;
 function includesElement(array, element) {
-for (let i = 0; i < array.length; i++){
-if (array[i] == element){res = true}
+  for (let i = 0; i < array.length; i++) {
+    if (array[i] === element) {
+    
 
+      res = true;
+      break
+    }
+    else res = false
+  }
+  return res;
 }
-return res
-}
-
