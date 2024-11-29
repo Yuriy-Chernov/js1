@@ -19,7 +19,7 @@ findCommonElements([1, 2, 3], [2, 3, 4]) // [2, 3]
 
 function findCommonElements(arr1, arr2) {
 sumArr = [];
-    for (let i = 0; i < arr1.length; 1++)
+    for (let i = 0; i < arr1.length; i++)
 {
     if(arr2.includes(arr1[i]) ) {sumArr.push(arr1[i])}
 }
