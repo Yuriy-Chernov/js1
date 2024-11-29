@@ -15,7 +15,7 @@
 let res = false; 
 function includesElement(array, element) {
 for (let i = 0; i < array.length; i++){
-if (array[i] !== element){res = true}
+if (array[i] == element){res = true}
 
 }
 return res
